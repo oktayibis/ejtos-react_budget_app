@@ -10,11 +10,13 @@ import ExpenseList from "./components/ExpenseList";
 import AllocationForm from "./components/AllocationForm";
 
 import { AppProvider } from './context/AppContext';
+import CurrencyDropdown from "./components/CurrencyDropdown";
 const App = () => {
     return (
         <AppProvider>
             <div className='container'>
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
+                <CurrencyDropdown />
                     <div className='row mt-3'>
                         <div className='col-sm'>
                             <Budget />

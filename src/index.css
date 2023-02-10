@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+select.currency { 
+  background-color: lightgreen;
+  color: white;
+  
+}
+
+option.currency-item {
+  background-color: lightgreen;
+  color: white;
+}
+
+.plus-green-button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+}
+
+.minus-red-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+}
